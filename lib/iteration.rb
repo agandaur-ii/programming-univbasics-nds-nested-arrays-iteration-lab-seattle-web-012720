@@ -38,4 +38,13 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
+  
+    row_index = 0 
+  new_array = []
+  while row_index < src.count do 
+    new_array << src[row_index].sort.last
+    row_index += 1
+  end
+return new_array
 end
+
