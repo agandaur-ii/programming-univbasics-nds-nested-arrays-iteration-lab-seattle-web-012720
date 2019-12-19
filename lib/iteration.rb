@@ -26,7 +26,7 @@ def find_greater_pair(src)
   while row_index < src.count do 
     new_array << src[row_index].sort.last
   end
-  new_array
+  return new_array
 end
 
 def total_even_pairs(src)
