@@ -42,11 +42,11 @@ def total_even_pairs(src)
     row_index = 0 
   new_array = []
   while row_index < src.count do 
-    if src[row_index]
-      new_array << src[row_index]
+    if src[row_index].sum / 2 == 0 
+      new_array << src[row_index].sum
     end
     row_index += 1
   end
-return new_array
+return new_array.sum
 end
 
