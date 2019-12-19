@@ -42,7 +42,7 @@ def total_even_pairs(src)
     row_index = 0 
   new_array = []
   while row_index < src.count do 
-    new_array << src[row_index].sort.last
+    new_array << src[row_index]
     row_index += 1
   end
 return new_array
